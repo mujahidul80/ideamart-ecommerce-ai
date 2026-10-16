@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Prevent rewrite loops if the file/folder exists
+    RewriteCond %{REQUEST_FILENAME} -d [OR]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+    
+    # Route for product pages
+    RewriteRule ^p/([^/]+)/?$ product.php?slug=$1 [L,QSA]
+    
+    # Route for extensionless PHP files
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.php -f
+    RewriteRule ^(.*)$ $1.php [L,QSA]
+</IfModule>

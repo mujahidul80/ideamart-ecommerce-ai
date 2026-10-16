@@ -1,0 +1,19 @@
+# Environment & sensitive credentials (uncomment if you want to exclude local db config)
+# db.php
+
+# Large archives
+*.zip
+*.rar
+*.tar.gz
+
+# Logs & temp files
+*.log
+fb_error.log
+tmp_*
+*.tmp
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
