@@ -95,6 +95,6 @@ This project is released under the [MIT License](LICENSE).
 ## Author & Support
 
 - **Developer**: Mujahidul Islam ([@mujahidul80](https://github.com/mujahidul80))
-- **WhatsApp**: [+880 1571-432927](https://wa.me/8801571432927) (Click to chat)
+- **WhatsApp**: [Chat on WhatsApp](https://wa.me/8801571432927)
 - **Website / Blog**: [mujahidulib.blogspot.com](https://mujahidulib.blogspot.com)
 - **Repository**: [mujahidul80/ideamart-ecommerce-ai](https://github.com/mujahidul80/ideamart-ecommerce-ai)
